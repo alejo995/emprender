@@ -1,0 +1,142 @@
+
+body {
+    min-height: auto;
+    padding-top: 4.5rem;
+    text-align: center;
+    background-color: gainsboro;
+}
+#name{
+    float: center;
+}
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2vw;
+    color: yellow;
+}
+.text-muted {
+    color: white!important;
+    font-size: 1.5vw;
+    margin-left: 4vw;
+}
+.text-centered {
+    color: darkred!important;
+    
+}
+#login{
+    margin-right: 4vw;
+    padding-right: 6vw;
+}
+.btn-outline-secondary {
+    color: red;
+    border-color: blue;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.row{
+    margin-top: 8px;
+}
+header{
+    margin-bottom: 2rem;
+}
+.clear {
+    clear: both;
+    padding: 2vw;
+}
+p{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px ;
+}
+.btn-secondary{
+    clear: both;
+    height: 35px;
+    bottom: 80px;
+    left: 10px;
+    width: 80%;
+    position: absolute;
+}
+#shop-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+#map-tile, #shop-tile {
+    height: 250px;
+    width: 100%;
+    border-radius: .25rem!important;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid darkred;
+    margin-top: 30px;
+    background-color: white;
+}
+#carouselExampleIndicators, #card, #features{
+    height: 250px;
+    width: 100%;
+    border-radius: .25rem!important;
+    position: relative;
+    border: 2px solid darkred;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: white;
+}
+.card {
+    background-color: gainsboro;
+}
+#features{
+    height: 250px;
+    width: 100%;
+    border-radius: .25rem!important;
+    position: relative;
+    border: 2px;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: gainsboro;
+}
+#carousel-indicators {
+    background-color: black;
+}
+#shop-tile {
+    background-image: url("../imagenes/tienda1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div .col-md-4 {   
+    padding: 2vw;
+    border: 2vw;
+}
+.row{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.col-lg-4{
+    padding: 0px;
+    
+}
+#icon{
+    position:relative;
+    top: calc(50% - 30px);
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.4em 0.4em;
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
